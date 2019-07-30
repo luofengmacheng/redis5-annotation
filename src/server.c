@@ -4097,6 +4097,7 @@ int main(int argc, char **argv) {
         }
 
         /* First argument is the config file name? */
+        /* 第一个参数是配置文件 */
         if (argv[j][0] != '-' || argv[j][1] != '-') {
             configfile = argv[j];
             server.configfile = getAbsolutePath(configfile);
